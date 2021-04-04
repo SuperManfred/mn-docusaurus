@@ -10,6 +10,14 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Document Stuff',
+      items: [
+        'documentation',
+        'markdown',
+      ],
+    },
+    {
+      type: 'category',
       label: 'React UI Libraries',
       items: [
         'overview',

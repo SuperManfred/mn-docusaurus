@@ -3,10 +3,11 @@ title: Overview
 slug: react-ui-component-libraries/tooling
 ---
 
-Learning to program software is both challenging and rewarding. Luckily the tools to help you develop your skills continue to improve and become more accessible. It doesn't take much to get started, so lets take a look at what you'll use:
+List UI component libraries
 
 - https://next.material-ui.com/api/date-picker/ https://material-ui.com
 - https://www.creative-tim.com/learning-lab/nextjs/react-datetime/material-dashboard
+- https://dev.to/raphaelchaula/how-to-localize-material-ui-datepicker-to-your-preferred-locale-in-react-3j8l
 - https://fomantic-ui.com/modules/calendar.html
 - https://ant.design/components/date-picker/
 - https://rsuitejs.com/components/date-picker/
