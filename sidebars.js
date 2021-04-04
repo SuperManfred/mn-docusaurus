@@ -2,7 +2,22 @@ module.exports = {
   docs: [
     {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'Learn Programming',
+      items: [
+        'tooling',
+        'markdown',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'React UI Libraries',
+      items: [
+        'overview',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Create your own Docusaurus',
       items: [
         'getting-started',
         'create-a-page',
