@@ -3,6 +3,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Learn Programming',
+      // slug: 'learn-programming',
       items: [
         'overview',
         'tooling',
