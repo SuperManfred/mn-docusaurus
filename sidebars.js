@@ -4,23 +4,17 @@ module.exports = {
       type: 'category',
       label: 'Learn Programming',
       items: [
+        'overview',
         'tooling',
         'markdown',
       ],
     },
     {
       type: 'category',
-      label: 'Document Stuff',
+      label: 'React Component Libraries',
+      // slug: 'react-component-libraries',
       items: [
-        'documentation',
-        'markdown',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'React UI Libraries',
-      items: [
-        'overview',
+        'list',
       ],
     },
     {
