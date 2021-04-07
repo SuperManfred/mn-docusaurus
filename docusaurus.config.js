@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Document stuff',
+  title: 'Learn to Code',
   tagline: 'Document stuff',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
@@ -46,10 +46,10 @@ module.exports = {
         {
           title: 'Socials',
           items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
+            // {
+            //   label: 'Stack Overflow',
+            //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+            // },
             {
               label: 'Discord',
               href: 'https://discordapp.com/invite/docusaurus',

@@ -3,6 +3,9 @@ title: Setup your Tools
 slug: learn-programming/setup-and-tooling
 ---
 
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
 The tools you'll use to develop software continue to improve and become more accessible. It doesn't take much to get started, so lets take a look at what you'll use:
 
 - [Terminal](#1-install-terminal)
@@ -14,13 +17,30 @@ The tools you'll use to develop software continue to improve and become more acc
 
 Terminal is a command line interface (CLI) that provides deep customization and command of your computer, this is very handy for developers.
 
-### Mac
-
-Mac OS comes with preinstalled with terminal, so you're done.
-
-### Windows
-
-Window Terminal can be downloaded on [Microsoft's website](https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab)
+<Tabs
+  groupId="operating-systems"
+  defaultValue="mac"
+  values={[
+    { label: "Mac OS", value: "mac" },
+    { label: "Windows", value: "windows" },
+  ]}
+>
+  <TabItem value="mac">
+    Mac OS comes with preinstalled with terminal, go to next step.
+  </TabItem>
+  <TabItem value="windows">
+    Windows Terminal can be downloaded on
+    <markdown>
+      <a
+        href="https://www.microsoft.com/en-us/p/windows-terminal-preview/9n0dx20hk701?activetab=pivot:overviewtab"
+        target="_top"
+      >
+        {" "}
+        Microsoft's website
+      </a>
+    </markdown>
+  </TabItem>
+</Tabs>
 
 ## 2. Install Chrome
 
@@ -30,18 +50,13 @@ Google Chrome is the preferred browser to use when developing software because i
 Please **<mark>use Chrome</mark>** for these exercises.
 ::: -->
 
-If you already have Chrome, you're done! Go to step 2.
-
-Otherwise install Chrome now:
-https://www.google.com/chrome/
+- If you already have Chrome go to the step. Otherwise install Chrome now: https://www.google.com/chrome/
 
 ## 3. Install Visual Studio Code
 
 Visual Studo Code is most popular code editor, this is where you will edit files and write code, it also has terminal access build in.
 
-Please install VS Code from the below link:
-
-https://code.visualstudio.com/
+- Get VS Code here: https://code.visualstudio.com/
 
 <!-- ### add Prettier plugin
 
@@ -67,5 +82,6 @@ https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser -->
 Git is an open source version control system, with Git at it's heart GitHub is the most advanced development platform.
 
 - Download Git: https://git-scm.com/downloads
-- Set a Git username in terminal: [follow these steps](https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git)
-- Set commit email: [follow these steps](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
+- Signup for a [GitHub](https://github.com/) username here: https://github.com/
+
+- Configure your terminal with the username: [follow these steps](https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) and email: [follow these steps](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) from previous step.
