@@ -17,7 +17,7 @@ const features = [
     ),
   },
   {
-    title: 'Empower yourself for the future',
+    title: 'Empower yourself',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
@@ -49,41 +49,12 @@ function Feature({imageUrl, title, description}) {
       <p>{description}</p>
     </div>
   );
-}
-
-// function userPromt() {
-//   const person = prompt("Please enter your name", "Harry Potter");
-//   if (person != null) {
-//     document.getElementById("demo").innerHTML =
-//     "Hello " + person + "! How are you today?";
-//   }
-// }
-
-// function promptUser(props) {
-//   return (
-//     <div>
-//       <button onClick={() => prompt('hey!')}>enter username</button>
-//     </div>
-//   );
-// }
+};
 
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
 
-  // const enteredName = prompt('Please enter your name')
-  //   /* Definition of handleClick in component */
-  //   handleClick = (event) => {
-
-  //     /* call prompt() with custom message to get user input from alert-like dialog */
-  //     const enteredName = prompt('Please enter your name')
-  
-  //     /* update state of this component with data provided by user. store data
-  //       in 'enteredName' state field. calling setState triggers a render of
-  //       this component meaning the enteredName value will be visible via the
-  //       updated render() function below */
-  //     this.setState({ enteredName : enteredName })
-  //   };
   return (
     <Layout
       title={`${siteConfig.title}
@@ -108,17 +79,8 @@ export default function Home() {
                 styles.getStarted,
               )} 
               onClick={() => prompt('hello :) enter a username!')}>
-          promptUser
+              promptUser
           </Link>
-            {/* <input type="text"
-            onChange={ this.handleChange } 
-            />
-        <input
-          type="button"
-          value="Alert the text input"
-          onClick={this.handleClick}
-        /> */}
-          {/* <button onclick="userPromt()">Try it</button> */}
           </div>
         </div>
       </header>
@@ -137,4 +99,4 @@ export default function Home() {
       </main>
     </Layout>
   );
-}
+};

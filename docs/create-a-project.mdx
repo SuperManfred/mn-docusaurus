@@ -1,0 +1,64 @@
+---
+title: Create the Project
+slug: create-the-project
+---
+
+import helloworld from "/static/img/helloworld.png";
+
+In this exercise we are going to use terminal to create a folder with three files, and VSCode write some code in those files.
+
+### 1. Create a project directory
+
+A "directory" is a folder that your "project" lives within. We are going to create a project called "my-website".
+
+Open your terminal, navigate to the location you want to setup your project, then enter these commands:
+
+```
+mkdir my-website
+cd my-website
+code .
+```
+
+:::info
+
+- first command `mkdir my-website` will _make a directory_ called "my-website"
+- second command `cd my-website` will _change directory_ (navigate) into my-website
+- third command `code .` opens VSCode with the contents of the directory path (in this case my-website)
+
+:::
+
+### 2. Create a file
+
+Now let's create a file and called "index" with ".html" filename extension. In your terminal enter this command:
+
+```
+touch index.html
+```
+
+### 3. Write some code
+
+In VSCode open the index.html file and enter the following code:
+
+```powershell title="index.html"
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <p>hello world</p>
+    </body>
+</html>
+```
+
+:::info
+
+- the first element `<!DOCTYPE html>` lets the browser know its parsing html
+- the `<html></html>` tags wrap all other tags to create html elements
+- the `<head></head>` tags wrap the information to go in the page head
+- the `<body></body>` tags wrap `<p></p>` tags to create a paragraph element
+
+:::
+
+Now save the file, and open it in chrome
+
+<img src={helloworld} alt="hello world" />
