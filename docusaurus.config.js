@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Learn to Code',
-  tagline: 'Document stuff',
+  tagline: 'Document your progress',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -50,10 +50,10 @@ module.exports = {
             //   label: 'Stack Overflow',
             //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
             // },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
+            // {
+            //   label: 'Discord',
+            //   href: 'https://discordapp.com/invite/docusaurus',
+            // },
             {
               label: 'Twitter',
               href: 'https://twitter.com/SuperManfred',

@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'All welcome',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Anyone can learn to code. It doesn't matter your age, background, experience, you can too! Generally the developer community is open and welcoming, and you will find most developers are helpful on your journey. 
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Empower yourself for the future',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Its totally realistic to teach yourself >80% of what want to know. Learning to code is a great challenge if you like solving puzzels, or math, or building, or creating and designing things...  
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'A rewarding pursuit',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You can work on hobby projects, launch your own web/mobile apps, or be professionally employed as a software developer. There's a huge demand for people who like and make things. Anything is possible!
       </>
     ),
   },
@@ -62,6 +59,13 @@ function Feature({imageUrl, title, description}) {
 //   }
 // }
 
+// function promptUser(props) {
+//   return (
+//     <div>
+//       <button onClick={() => prompt('hey!')}>enter username</button>
+//     </div>
+//   );
+// }
 
 export default function Home() {
   const context = useDocusaurusContext();
@@ -98,6 +102,14 @@ export default function Home() {
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>
+            <Link               
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )} 
+              onClick={() => prompt('hello :) enter a username!')}>
+          promptUser
+          </Link>
             {/* <input type="text"
             onChange={ this.handleChange } 
             />
