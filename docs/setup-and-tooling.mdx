@@ -6,6 +6,7 @@ slug: learn-programming/setup-and-tooling
 import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import codedot from "/static/img/codedot.png";
+import shellcommand from "/static/img/shellcommand.png";
 
 The tools you'll use to develop software continue to improve and become more accessible. It doesn't take much to get started, so lets take a look at what you'll use:
 
@@ -20,7 +21,7 @@ Terminal is a command line interface (CLI) that provides deep customization and 
 
 <Tabs
   groupId="operating-systems"
-  defaultValue="mac"
+  defaultValue="win"
   values={[
     { label: "Mac OS", value: "mac" },
     { label: "Windows", value: "windows" },
@@ -45,48 +46,30 @@ Terminal is a command line interface (CLI) that provides deep customization and 
 
 ## 2. Install Chrome
 
-Google Chrome is the preferred browser to use when developing software because its developer tools are excellent.
+Chrome is the preferred browser to use when developing software, its developer tools are excellent.
 
 <!-- :::info
 Please **<mark>use Chrome</mark>** for these exercises.
 ::: -->
 
-- If you already have Chrome go to the step. Otherwise install Chrome now: https://www.google.com/chrome/
+- Install Chrome: https://www.google.com/chrome (if you already have Chrome go to the step)
 
 ## 3. Install Visual Studio Code
 
 Visual Studo Code is most popular code editor, you use it edit files and write code, it also has terminal access build in.
 
-a) Install VSCode: https://code.visualstudio.com/
+a) Install VSCode: https://code.visualstudio.com
 
-b) Open the Command Palette via (⇧⌘P) and type shell command to find the Shell Command:
+b) Open the Command Palette (⇧⌘P)
 
-<img src={codedot} alt="code dot" />
-
-<!-- ### add Prettier plugin
-
-By installing this plugin your code will be automaticaly formated to look clean and conventional.
-
-https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-
-Configuration settings:
-
-1. View -> Command Palette -> search: "open user settings" -> search: "format on save" -> check
-
-2. View -> Command Palette -> search: "open user settings" -> search: "tabsize"
-
-Confirm **`Tab Size`** is **"2"**.
-
-### add open in browser plugin
-
-Please install this plugin:
-https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser -->
+<img src={codedot} alt="topmenu: view, select Command Palette" />
+c) type "shell command", then select "install 'code' command in PATH"
+<img src={shellcommand} alt="shell command" />
 
 ## 4. Setup Git
 
-Git is an open source version control system, with Git at it's heart GitHub is the most advanced development platform.
+Git is an open source version control system, GitHub is the most advanced development platform
 
-- Download Git: https://git-scm.com/downloads
-- Signup for a [GitHub](https://github.com/) username here: https://github.com/
-
-- Configure your terminal with the username: [follow these steps](https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) and email: [follow these steps](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address) from previous step.
+- Download and install Git: https://git-scm.com/downloads
+- Signup for a GitHub username: https://github.com to use in next step
+- Configure terminal with your GitHub username: [follow these steps](https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git) and email: [follow these steps](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
