@@ -2,15 +2,15 @@ module.exports = {
   docs: [
     // 'overview',
     {
-      type: 'category',
-      label: 'Learn to Code',
+      type: "category",
+      label: "Learn to Code",
       // slug: 'learn-programming',
       items: [
-        'learn-to-code',
-        'setup-and-tooling',
-        'create-a-project',
-        'git-version-control',
-        'deploy-your-website',
+        "learn-to-code",
+        "setup",
+        "create-a-project",
+        "git-version-control",
+        "deploy-your-website",
       ],
     },
     // {

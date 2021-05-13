@@ -8,9 +8,9 @@ author_image_url: https://avatars.githubusercontent.com/u/4617302?s=400&u=feb0ba
 tags: [react, design, ui, prototyping]
 ---
 
-Whenever I'm about to start a new project, one of the first things I think about is what the UI will look and feel like.
+Whenever I'm about to start a new project, one of the first things I think about is what the UI will look and feel like. As much as I'd love to create a beautiful new _unique_ design for each new project, that would not be the best use of my time...<!-- truncate -->
 
-As much as I'd love to create a beautiful new _unique_ design for each new project, that would not be the best use of my time. Its better to get a decent looking prototype up and running ASAP. So the immediate objective is to select and adopt an existing [design system] (https://designsystemsrepo.com/design-systems) specification.
+The best thing for me is to get a decent looking prototype up and running ASAP. So the immediate objective is to select and adopt an existing [design system] (https://designsystemsrepo.com/design-systems) specification.
 
 Since I usually work with React, I'm looking to choose from React Component Libraries. These libraries are constantly being updated and improved, forked, or depreicated. I've noticed I go through a similar process each time: I end up googling all these UI librarys, re-exploring them, and re-evaluating how attractive they are. I'm looking for what's changed in the latest releases, and how ready each one is to help me make my app functional and beautiful - in the least amount of time.
 
@@ -19,8 +19,6 @@ Previously this "process" has been pretty much adhoc and therefore inefficient. 
 ## The selection process:
 
 This blog post steps through what is important for me when I choose React Component Library. The trick is to think about what criteria are important before window shopping UI libraries and weighing up Pros & Cons.
-
-<!--truncate-->
 
 ### Criteria to consider
 
