@@ -7,7 +7,7 @@ module.exports = {
       // slug: 'learn-programming',
       items: [
         "learn-to-code",
-        "setup",
+        "setup-your-tools",
         "create-a-project",
         "git-version-control",
         "deploy-your-website",
