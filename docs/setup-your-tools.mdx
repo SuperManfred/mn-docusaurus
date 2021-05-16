@@ -17,6 +17,7 @@ The tools you'll use to develop software continue to improve and become more acc
 - [Chrome Browser](#2-install-chrome)
 - [Visual Studio Code](#3-install-visual-studio-code)
 - [Git](#4-setup-git)
+- [GitHub Account](#5-setup-github-account)
 
 ## 1. Install Terminal
 
@@ -44,7 +45,7 @@ values={[
     <markdown>
       <a
         href="https://www.microsoft.com/en-us/p/powershell/9mz1snwt0n5d?activetab=pivot:overviewtab"
-        target="_top"
+        target="_blank"
       >
         {" "}
         Microsoft's website
@@ -55,11 +56,7 @@ values={[
 
 ## 2. Install Chrome
 
-Chrome is the preferred browser to use when developing software, its developer tools are excellent.
-
-:::info
-Please **<mark>use Chrome</mark>** for these exercises.
-:::
+Chrome is the preferred browser to use when developing software.
 
 - Install Chrome: https://www.google.com/chrome
   (if you already have Chrome go to the step)
@@ -78,12 +75,12 @@ c) type "shell command", then select "install 'code' command in PATH"
 
 <img src={shellcommand} alt="shell command" />
 
-## 4. Setup Git and GitHub
+## 4. Setup Git
 
-Git is an open source version control system, GitHub is the most advanced development platform
+Git is an open source version control system, GitHub is the most advanced source code management platform
 
 - Download and install Git: https://git-scm.com/downloads
-- Verify git is setup, enter this command in terminal:
+- Verify git is setup properly, enter this command in terminal:
 
 ```
   git --version
@@ -93,11 +90,13 @@ You should get a response with a version, your version may be higher than mine, 
 
 <img src={gitversion} alt="check version" />
 
-- Get a GitHub user.name --> Signup here: https://github.com
-- Configure terminal with your:
+## 5. Setup GitHub Account
+
+- Get a GitHub user.name here: https://github.com
+- Using the same user.name and email, configure your terminal:
   - GitHub user.name: [follow these steps](https://docs.github.com/en/github/getting-started-with-github/setting-your-username-in-git)
   - GitHub user.email: [follow these steps](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-your-commit-email-address)
-- Verify your GitHub user.name and user.email by entering these commands in terminal:
+- Verify your GitHub user.name and user.email are configured properly by entering these commands in terminal:
 
 ```
   git config -l | grep user.name

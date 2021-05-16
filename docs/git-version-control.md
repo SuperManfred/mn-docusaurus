@@ -1,5 +1,5 @@
 ---
-title: Git Version Control
+title: Add Version Control
 slug: git-version-control
 ---
 
@@ -12,21 +12,23 @@ Ok, let's add git version control to our project. Git helps track changes to you
 
 ### 1. Initialise Git in your project
 
-Open your terminal, navigate into the location of your project, then enter this command:
-
-```
-git init
-```
-
 :::info
 
 - the command `git init` will _initialise git_ in your project
 
 :::
 
+Open your terminal, navigate into the location of your project, then enter this command:
+
+```
+git init
+```
+
 ### 2. Create a repository on Github
 
-Ordinarily I name a repository exactly as my project is named, for example "my-website", but this instance is an exception. In order to get your website hosted for _free_ on GitHub (in addition to hosting the source code of your repository free), we need to create the repo that is named _exactly_ the same as your GitHub user.name with a .github.io on the end `¯\_(ツ)\_/¯`
+Ordinarily I name a repository exactly as my project is named, for example "my-website", but this instance is an exception.
+
+In addition to hosting the source code of your repository free on GitHub, in order to get your website hosted for _free_ we need to create the repo that is named _exactly_ the same as your GitHub user.name with a .github.io on the end `¯\_(ツ)\_/¯`
 
 Here's how mine looks:
 
@@ -34,8 +36,9 @@ Here's how mine looks:
 
 Now you do it, just enter your username as the name of your new repository:
 
-- Create a new here https://github.com/new
-- Name your repository exactly as your username is spelt (don't worry about the other options)
+- Create a new repo here: https://github.com/new
+- Name your repository exactly as your username is spelt with `.github.io` on the end
+- Ignore the other options for now (keep it public ect)
 
 After you press "Create Repository" you will get a screen with some commands to configue git in your project with the new repo. We need those for the next step so don't click away.
 
@@ -45,28 +48,26 @@ Here's what I got from previous step: (note the highlighted area, we need those 
 
 ### 3. Configure your project to the repo on GitHub
 
-Open your terminal, navigate into the location of our project, lets use those commands:
+Open your terminal, navigate into the location of our project, enter these commands:
 
 (replace `<YourGithubUsername>` with _YourGithubUsername_ )
 
 ```
 git remote add origin https://github.com/<YourGithubUsername>/<YourGithubUsername>.github.io.git
+```
+
+Great. Now if anyone is going to clone or contribute to your respository, the origin they use is the source code at that url rather than the project on your local machine (which probably isn't connected to the internet 24/7)
+
+Now let's ensure the main branch is set:
+
+```
 git branch -M main
-git push -u origin main
 ```
 
-Now visit your website: `https://<YourGithubUsername>.github.io`
-
-### Congratulations!!!
-
-<img src={liveoninternet} alt="your site is live!" />
-
-If you have changed your index.html file, you will have to do this:
+Finally, let's check that our local project and the origin repository are both up to date with each other.
 
 ```
-git add .
-git commit -m "comment with a description of what you did"
-git push -u origin main
+git status
 ```
 
-You will repeat those commands again and again as you make improvements to your website.
+If there are changes to your files that have not been committed, the there will be a list of the files that need to be committed. It will also tell you if the origin repository has some changes that are not yet reflected in your local project. We will get to that in the next step :)
