@@ -82,4 +82,4 @@ Excellent! Well I hope you feel good about what you've just done. You now have a
 
 Best of all, you can now impliment what your learning in real life as you learn new things. At this stage I would not be too fused about what your site looks like, just use it as a place to document your work.
 
-The most important thing now is to find a structured path to continue learning. Here is a blog about choosing a path forward: {inset blog post}
+The most important thing now is to stay keen and code as often as possible, and find a structured learning path. Here is a blog about choosing a path forward as you set out on the journey of [_forever_ "Learning to Code"](/blog/learning-to-code)
