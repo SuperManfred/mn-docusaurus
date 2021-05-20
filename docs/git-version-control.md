@@ -1,5 +1,5 @@
 ---
-title: Add Version Control
+title: Add version control
 slug: git-version-control
 ---
 
