@@ -9,7 +9,7 @@ While you're just starting out, most of the time it will be challenging! It's he
 
 It's normal skip around trying things out and continually getting stuck with things not working. Sometimes you can't even begin to follow along some exercise because you're missing dependencies, or something is not configured right on your computer. Sometimes documentation is out of date, or important instructions are just not made explicit. Getting stuck can be extrodinarily time consuming and frustrating.
 
-The good news is: this does not mean you're not uniquely unsuitable to learn computer programming, although you may feel that way sometimes. Pretty much all developers go through this, it is completely normal.
+The good news is: this does not mean you're uniquely unsuitable to learn computer programming, although you may feel that way sometimes. Pretty much all developers go through this, it is completely normal.
 
 Don't expect that you need to fully understand or recall from memory how to do everything on the first go when you're learning. It's totally normal to refer back to documentation to figure out how to do something, you will always be doing this.
 
