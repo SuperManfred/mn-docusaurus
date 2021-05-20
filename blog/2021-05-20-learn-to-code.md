@@ -8,7 +8,11 @@ author_image_url: https://avatars.githubusercontent.com/u/4617302?s=400&u=feb0ba
 tags: [html, css, javascript]
 ---
 
-The journey continues... I highly recommend trying out a few different reseources to start out learning to code for free, before commencing course or other structured learning path which may cost some money. Here are some suggestions:
+If you have just come from: [learn-to-code: Introduction](/docs/) the journey continues...
+
+I highly recommend trying out a few different resources to find something that feels good for you, ideally you make use of all the free resources first before commencing course or other structured learning paths which may require a financial investment. Incase you're not be sure what to do next try this: https://www.codecademy.com/explore/sorting-quiz
+
+Otherwise, here are some suggestions:
 
 # Online Resources:
 
