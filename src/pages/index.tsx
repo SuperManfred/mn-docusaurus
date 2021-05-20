@@ -73,14 +73,14 @@ export default function Home() {
               to={useBaseUrl('docs/')}>
               Get Started
             </Link>
-            <Link               
+            {/* <Link               
               className={clsx(
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )} 
               onClick={() => prompt('hello :) enter a username!')}>
               promptUser
-          </Link>
+          </Link> */}
           </div>
         </div>
       </header>
