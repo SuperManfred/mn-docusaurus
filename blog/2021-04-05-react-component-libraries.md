@@ -48,3 +48,7 @@ These critera can be different for each project. For example if you don't need s
 - https://rebassjs.org/
 - https://elemental-ui.com
 - https://chakra-ui.com/docs/getting-started
+
+### Standalone react components/packages
+
+- Datepicker https://kiarash-z.github.io/react-modern-calendar-datepicker/
