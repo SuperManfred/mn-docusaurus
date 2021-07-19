@@ -1,0 +1,22 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mndocusaurus-dev-163410-authRole",
+            "UnauthRoleArn": "arn:aws:iam::097996327445:role/amplify-mndocusaurus-dev-163410-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::097996327445:role/amplify-mndocusaurus-dev-163410-authRole",
+            "Region": "ap-southeast-2",
+            "DeploymentBucketName": "amplify-mndocusaurus-dev-163410-deployment",
+            "UnauthRoleName": "amplify-mndocusaurus-dev-163410-unauthRole",
+            "StackName": "amplify-mndocusaurus-dev-163410",
+            "StackId": "arn:aws:cloudformation:ap-southeast-2:097996327445:stack/amplify-mndocusaurus-dev-163410/bbb0a4e0-b610-11eb-a146-06f631cd78de",
+            "AmplifyAppId": "d1skfgz5z9363k"
+        }
+    },
+    "hosting": {
+        "amplifyhosting": {
+            "service": "amplifyhosting",
+            "type": "cicd",
+            "lastPushTimeStamp": "2021-05-16T06:39:42.014Z"
+        }
+    }
+}

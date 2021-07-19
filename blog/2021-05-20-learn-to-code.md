@@ -14,7 +14,7 @@ I highly recommend trying out a few different resources to find something that f
 
 Otherwise, here are some suggestions:
 
-# Online Resources:
+# FREE Online Resources:
 
 ### Learn HTML, CSS, JavaScript and more...
 
@@ -41,11 +41,14 @@ Probably a good place to start is to go through the official docs on the react s
 - https://dev.to/hulyakarakaya/learn-next-js-for-free-with-these-resources-jfi
 - https://nextjs.org/blog/forms
 
-# Courses:
+# PAY for Courses:
 
+- https://justjavascript.com
 - https://kentcdodds.com/courses
 
-# Structure Learning Programs:
+# PAY for Structured Learning:
 
 - https://www.42.us.org
 - https://launchschool.com
+
+// I do not recieve any money for this content, I'm just sharing it for the benefit of the community.
