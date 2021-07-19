@@ -49,6 +49,7 @@ Probably a good place to start is to go through the official docs on the react s
 # PAY for Structured Learning:
 
 - https://www.42.us.org
+- https://lambdaschool.com
 - https://launchschool.com
 
 // I do not recieve any money for this content, I'm just sharing it for the benefit of the community.
