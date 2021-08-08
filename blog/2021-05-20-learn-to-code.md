@@ -30,7 +30,10 @@ Otherwise, here are some suggestions:
 
 ### Learn React
 
-Probably a good place to start is to go through the official docs on the react site: https://reactjs.org/docs/getting-started.html
+Probably a good place to start is to go through the official docs on the react site:
+
+- https://reactjs.org/docs/getting-started.html
+- https://create-react-app.dev
 
 ##### react forms:
 
