@@ -49,6 +49,10 @@ These critera can be different for each project. For example if you don't need s
 - https://elemental-ui.com
 - https://chakra-ui.com/docs/getting-started
 
+### a more comprenhensive list
+
+- https://wiki.nikitavoloboev.xyz/programming
+
 ### Standalone react components/packages
 
 - Datepicker https://kiarash-z.github.io/react-modern-calendar-datepicker/
