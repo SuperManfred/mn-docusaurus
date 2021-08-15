@@ -51,7 +51,7 @@ These critera can be different for each project. For example if you don't need s
 
 ### a more comprenhensive list
 
-- https://wiki.nikitavoloboev.xyz/programming
+- https://wiki.nikitavoloboev.xyz/design/design-systems
 
 ### Standalone react components/packages
 
