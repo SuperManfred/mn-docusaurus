@@ -20,6 +20,7 @@ Otherwise, here are some suggestions:
 
 - https://developer.mozilla.org
 - https://www.w3schools.com
+- https://scrimba.com/learn/frontend
 
 ### Focus on JavaScript
 
